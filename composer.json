@@ -1,36 +1,31 @@
 {
-    "name": "casperboone/laravel-zabbix-graph",
+    "name": "alexdeoliveira/laravel-zabbix-graph",
     "description": "Get nice looking graphs of your Zabbix devices in Laravel.",
     "keywords": [
         "laravel-zabbix-graph"
     ],
-    "homepage": "https://github.com/casperboone/laravel-zabbix-graph",
+    "homepage": "https://github.com/alexdeoliveira/laravel-zabbix-graph",
     "license": "MIT",
     "authors": [
         {
-            "name": "Casper Boone",
-            "email": "mail@casperboone.nl",
-            "homepage": "https://casperboone.nl",
+            "name": "Aléx de Oliveira",
+            "email": "alex.oliveira.web@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.3",
         "casperboone/zabbix-graph": "^1.0",
-        "illuminate/support": "~5.1|~6.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^3.4.6",
-        "phpunit/phpunit": "^6.0"
+        "illuminate/support": "~8.10"
     },
     "autoload": {
         "psr-4": {
-            "CasperBoone\\LaravelZabbixGraph\\": "src"
+            "Alexdeoliveira\\LaravelZabbixGraph\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CasperBoone\\LaravelZabbixGraph\\Test\\": "tests"
+            "Alexdeoliveira\\LaravelZabbixGraph\\Test\\": "tests"
         }
     },
     "scripts": {
