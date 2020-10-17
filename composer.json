@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^7.3",
-        "casperboone/zabbix-graph": "^1.0",
+        "alexdeoliveira/zabbix-graph": "^1.0",
         "illuminate/support": "~8.10"
     },
     "autoload": {
