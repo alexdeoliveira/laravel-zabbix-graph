@@ -1,9 +1,9 @@
 <?php
 
-namespace CasperBoone\LaravelZabbixGraph;
+namespace Alexdeoliveira\LaravelZabbixGraph;
 
 use Illuminate\Support\ServiceProvider;
-use CasperBoone\ZabbixGraph\ZabbixGraph;
+use Alexdeoliveira\ZabbixGraph\ZabbixGraph;
 
 class ZabbixGraphServiceProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace CasperBoone\LaravelZabbixGraph;
+namespace Alexdeoliveira\LaravelZabbixGraph;
 
 use Illuminate\Support\Facades\Facade;
-use CasperBoone\ZabbixGraph\ZabbixGraph;
+use Alexdeoliveira\ZabbixGraph\ZabbixGraph;
 
 /**
- * @see \CasperBoone\ZabbixGraph\ZabbixGraph
+ * @see \Alexdeoliveira\ZabbixGraph\ZabbixGraph
  */
 class ZabbixGraphFacade extends Facade
 {
