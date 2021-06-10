@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.3" | "^8.*",
+        "php": "^7.3 | ^8.*",
         "alexdeoliveira/zabbix-graph": "^1.0",
         "illuminate/support": "~8.10"
     },
